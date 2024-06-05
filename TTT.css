@@ -47,11 +47,13 @@ body {
     margin-top: 3rem;
 }
 
-#msg {
+#winnerMsg,
+#drawMsg {
     color: red;
     font-size: 4vmin;
 }
 
-.hide {
+.hideWinner,
+.hideDraw {
     display: none;
 }
